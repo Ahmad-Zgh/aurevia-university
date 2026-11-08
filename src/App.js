@@ -8,7 +8,7 @@ import Navbar from './components/Navbar';
 
 import Home from './pages/Home';
 import AboutUs from './pages/AboutUs';
-import Admissions from './pages/Admissions';
+import Admission from './pages/Admission';
 import BusinessSchedule from './pages/BusinessSchedule';
 import CsSchedule from './pages/CsSchedule';
 import EngineeringSchedule from './pages/EngineeringSchedule';
@@ -26,7 +26,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about-us" element={<AboutUs />} />
-            <Route path="/admissions" element={<Admissions />} />
+            <Route path="/admissions" element={<Admission />} />
             <Route path="/business-schedule" element={<BusinessSchedule />} />
             <Route path="/cs-schedule" element={<CsSchedule />} />
             <Route path="/engineering-schedule" element={<EngineeringSchedule />} />

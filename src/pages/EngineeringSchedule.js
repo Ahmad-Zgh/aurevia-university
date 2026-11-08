@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './EngineeringSchedule.css';
+import '../css/EngineeringSchedule.css';
 
 function EngineeringSchedule() {
   return (
