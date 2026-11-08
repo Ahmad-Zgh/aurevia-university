@@ -1,0 +1,40 @@
+/* ===== CsSchedule.css ===== */
+
+.cs-page {
+  background-color: #111116;
+}
+
+.cs-container {
+  max-width: 900px;
+}
+
+.cs-back {
+  color: #0dcaf0;
+}
+
+.cs-slogan {
+  text-align: center;
+  font-weight: bold;
+  color: #f8f9fa;
+  letter-spacing: 1px;
+  text-shadow: 2px 1px 1px rgba(8, 0, 255, 0.7);
+  margin: 24px 0;
+}
+
+.cs-title {
+  color: #2c2e98;
+  font-weight: bold;
+}
+
+.cs-table {
+  margin-top: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Dark blue table header */
+.cs-table thead th {
+  background-color: #1E3A8A;
+  color: white;
+  min-width: 110px;
+}

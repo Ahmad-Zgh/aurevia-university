@@ -1,0 +1,43 @@
+/* ===== EngineeringSchedule.css ===== */
+
+.engineering-page {
+  background-color: #0F172A;
+}
+
+.engineering-container {
+  max-width: 900px;
+}
+
+.engineering-back {
+  color: #0dcaf0;
+}
+
+.engineering-slogan {
+  text-align: center;
+  font-weight: bold;
+  color: #0d6efd;
+  margin: 24px 0;
+}
+
+/* Orange line on top of the white box */
+.engineering-box {
+  border-top: 6px solid #F97316;
+}
+
+.engineering-title {
+  color: #1E3A8A;
+  font-weight: bold;
+}
+
+.engineering-table {
+  margin-top: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Dark blue table header */
+.engineering-table thead th {
+  background-color: #1E3A8A;
+  color: white;
+  min-width: 110px;
+}
