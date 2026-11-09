@@ -9,7 +9,7 @@ function Home() {
       <h1 className="home-title">Aurevia University</h1>
       <p className="home-subtitle">Empowering the next generation of academic leaders</p>
 
-      {/* Slideshow (Bootstrap carousel): changes picture every 4 seconds */}
+
       <div className="carousel slide carousel-fade slideshow" data-bs-ride="carousel" data-bs-interval="4000">
         <div className="carousel-inner">
           <div className="carousel-item active">
@@ -37,7 +37,7 @@ function Home() {
 
       <h3 className="majors-title">Majors</h3>
 
-      {/* Bootstrap grid: 1 button per row on phones, 3 side by side on computers */}
+    
       <div className="row g-3">
         <div className="col-12 col-md-4">
           <Link to="/cs-schedule" className="btn btn-outline-primary w-100 major-btn">Computer Science Track</Link>

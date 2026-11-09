@@ -1,0 +1,36 @@
+
+
+.admissions-page {
+  background-color: #496786;
+}
+
+.admissions-container {
+  max-width: 700px;
+}
+
+.admissions-subtitle {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
+
+.admissions-table {
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Dark blue table header */
+.admissions-table thead th {
+  background-color: #1E3A8A;
+  color: white;
+}
+
+.form-label {
+  font-weight: 600;
+}
+
+.apply-form-btn {
+  margin-top: 24px;
+  font-weight: bold;
+}

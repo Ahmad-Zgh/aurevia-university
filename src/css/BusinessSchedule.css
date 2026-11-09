@@ -1,0 +1,38 @@
+
+
+.business-page {
+  background-color: #705d5d;
+}
+
+.business-container {
+  max-width: 900px;
+}
+
+.business-back {
+  color: #0dcaf0;
+}
+
+.business-slogan {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin: 24px 0;
+}
+
+.business-subtitle {
+  font-weight: bold;
+}
+
+.business-table {
+  margin-top: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Brown table header */
+.business-table thead th {
+  background-color: brown;
+  color: white;
+  min-width: 110px;
+}

@@ -1,4 +1,4 @@
-/* ===== Navbar.css ===== */
+
 
 .navbar-brand {
   font-weight: bold;
@@ -20,7 +20,7 @@
   margin: 8px 0;
 }
 
-/* On computers, the Apply button sits in the same row as the links */
+
 @media (min-width: 768px) {
   .apply-btn {
     margin: 0 0 0 8px;

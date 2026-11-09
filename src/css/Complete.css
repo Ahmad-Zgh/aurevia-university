@@ -1,0 +1,27 @@
+/* ===== Complete.css ===== */
+
+.complete-page {
+  background-color: #496786;
+  padding-top: 48px;
+}
+
+.complete-container {
+  max-width: 500px;
+}
+
+.complete-box {
+  text-align: center;
+  font-family: Georgia, serif;
+  padding: 32px;
+}
+
+.check-icon {
+  font-size: 4rem;
+  color: #198754;
+}
+
+.complete-title {
+  color: #198754;
+  font-weight: bold;
+  font-size: 1.75rem;
+}
