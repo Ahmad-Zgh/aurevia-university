@@ -5,7 +5,7 @@ import '../css/CsSchedule.css';
 function CsSchedule() {
   return (
     <div className="page cs-page">
-      <div className="container cs-container">
+      <div className="container cs-container">                      {/*  container = centers the content */}
 
         <Link to="/" className="back-link cs-back">← Home</Link>
 
@@ -24,8 +24,10 @@ function CsSchedule() {
 
           <h4 className="cs-title">Program Schedule</h4>
 
-          <div className="table-responsive cs-table">
+          <div className="table-responsive cs-table">               {/*  table-responsive = scrolls sideways on phones */}
             <table className="table table-bordered table-striped table-hover mb-0">
+            {/*  table = table style | table-bordered = cell borders | table-striped = grey every other row
+                 table-hover = highlight row under the mouse | mb-0 = no space under */}
               <thead>
                 <tr>
                   <th>Semester</th>

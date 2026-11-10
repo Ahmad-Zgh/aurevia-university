@@ -5,7 +5,7 @@ import '../css/Careers.css';
 function Careers() {
   return (
     <div className="page careers-page">
-      <div className="container careers-container">
+      <div className="container careers-container">                 {/*  container = centers the content */}
 
         <Link to="/" className="back-link">← Home</Link>
 
@@ -18,7 +18,7 @@ function Careers() {
               programs in Engineering, Computer Science, and Business give students both knowledge
               and practical skills.
             </p>
-            <p className="mb-0">
+            <p className="mb-0">                                    {/*  mb-0 = no space under the last paragraph */}
               Computer Science students learn programming, data handling, and software development.
               They can work in jobs like software development, cybersecurity, and IT.
             </p>

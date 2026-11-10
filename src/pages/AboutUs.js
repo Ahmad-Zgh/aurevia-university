@@ -5,7 +5,7 @@ import '../css/AboutUs.css';
 function AboutUs() {
   return (
     <div className="page about-page">
-      <div className="container about-container">
+      <div className="container about-container">                   {/*  container = centers the content */}
 
         <Link to="/" className="back-link">← Home</Link>
 

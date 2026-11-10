@@ -5,13 +5,13 @@ import '../css/EngineeringSchedule.css';
 function EngineeringSchedule() {
   return (
     <div className="page engineering-page">
-      <div className="container engineering-container">
+      <div className="container engineering-container">             {/* 🅱️ container = centers the content */}
 
         <Link to="/" className="back-link engineering-back">← Home</Link>
 
-        {/* On phones, "EVERY DAY" gets its own line (d-sm-none = hidden from small screens up) */}
         <h4 className="engineering-slogan">
           EVERY DAY <br className="d-sm-none" /> YOU HAVE A CHANCE TO CHANGE <br /> (2026)
+          {/* 🅱️ d-sm-none = hidden from small screens up -> this line break only shows on phones */}
         </h4>
 
         <div className="white-box engineering-box">
@@ -25,8 +25,10 @@ function EngineeringSchedule() {
 
           <h4 className="engineering-title">Program Schedule</h4>
 
-          <div className="table-responsive engineering-table">
+          <div className="table-responsive engineering-table">      {/*  table-responsive = scrolls sideways on phones */}
             <table className="table table-bordered table-striped table-hover mb-0">
+            {/*  table = table style | table-bordered = cell borders | table-striped = grey every other row
+                 table-hover = highlight row under the mouse | mb-0 = no space under */}
               <thead>
                 <tr>
                   <th>Semester</th>

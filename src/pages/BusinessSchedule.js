@@ -5,7 +5,7 @@ import '../css/BusinessSchedule.css';
 function BusinessSchedule() {
   return (
     <div className="page business-page">
-      <div className="container business-container">
+      <div className="container business-container">                {/* 🅱️ container = centers the content */}
 
         <Link to="/" className="back-link business-back">← Home</Link>
 
@@ -24,8 +24,10 @@ function BusinessSchedule() {
 
           <h4 className="business-subtitle">Program Schedule</h4>
 
-          <div className="table-responsive business-table">
+          <div className="table-responsive business-table">         {/*  table-responsive = scrolls sideways on phones */}
             <table className="table table-bordered table-striped table-hover mb-0">
+            {/*  table = table style | table-bordered = cell borders | table-striped = grey every other row
+                 table-hover = highlight row under the mouse | mb-0 = no space under */}
               <thead>
                 <tr>
                   <th>Semester</th>

@@ -5,19 +5,20 @@ import '../css/Complete.css';
 function Complete() {
   return (
     <div className="page complete-page">
-      <div className="container complete-container">
+      <div className="container complete-container">                {/*  container = centers the content */}
 
         <div className="white-box complete-box">
           <div className="check-icon">✔</div>
 
           <h1 className="complete-title">Registration Complete!</h1>
 
-          <p className="text-secondary">
+          <p className="text-secondary">                            {/*  text-secondary = grey text */}
             Thank you for choosing Aurevia University! <br />
             We look forward to seeing you soon on our campus.
           </p>
 
           <Link to="/" className="btn btn-warning w-100 fw-bold">Return Home</Link>
+          {/*  btn = button | btn-warning = yellow | w-100 = full width | fw-bold = bold text */}
         </div>
 
       </div>

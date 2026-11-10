@@ -5,7 +5,6 @@ import '../css/Admission.css';
 function Admission() {
   const navigate = useNavigate();
 
-  // When the form is sent, go to the "Registration Complete" page
   function handleSubmit(e) {
     e.preventDefault();
     navigate('/complete');
@@ -13,7 +12,7 @@ function Admission() {
 
   return (
     <div className="page admissions-page">
-      <div className="container admissions-container">
+      <div className="container admissions-container">              {/* 🅱️ container = centers the content */}
 
         <Link to="/" className="back-link">← Home</Link>
 
@@ -38,8 +37,10 @@ function Admission() {
 
           <h4 className="admissions-subtitle">Registration Schedule</h4>
 
-          <div className="table-responsive admissions-table">
+          <div className="table-responsive admissions-table">        {/* 🅱️ table-responsive = scrolls sideways on phones */}
             <table className="table table-bordered table-striped text-center mb-0">
+            {/* 🅱️ table = table style | table-bordered = cell borders | table-striped = grey every other row
+                🅱️ text-center = centered text | mb-0 = no space under */}
               <thead>
                 <tr>
                   <th>Phase</th>
@@ -58,11 +59,10 @@ function Admission() {
           <h4 className="admissions-subtitle">Application Form</h4>
 
           <form onSubmit={handleSubmit}>
-            {/* Bootstrap grid: 1 field per row on phones, 2 per row on computers */}
-            <div className="row g-3">
-              <div className="col-12 col-md-6">
-                <label className="form-label">Full Name</label>
-                <input type="text" className="form-control" required />
+            <div className="row g-3">                               {/*  row = grid row | g-3 = gap between fields */}
+              <div className="col-12 col-md-6">                     {/*  col-12 = 1 per row on phones | col-md-6 = 2 per row on computers */}
+                <label className="form-label">Full Name</label>    {/*  form-label = field name style */}
+                <input type="text" className="form-control" required />   {/*  form-control = styled text box */}
               </div>
               <div className="col-12 col-md-6">
                 <label className="form-label">Email</label>
@@ -74,7 +74,7 @@ function Admission() {
               </div>
               <div className="col-12 col-md-6">
                 <label className="form-label">Major</label>
-                <select className="form-select" required>
+                <select className="form-select" required>           {/*  form-select = styled dropdown */}
                   <option value="">Choose a major</option>
                   <option>Computer Science</option>
                   <option>Business</option>
@@ -84,6 +84,7 @@ function Admission() {
             </div>
 
             <button type="submit" className="btn btn-primary w-100 apply-form-btn">Apply</button>
+            {/* 🅱️ btn = button | btn-primary = blue | w-100 = full width */}
           </form>
         </div>
 
