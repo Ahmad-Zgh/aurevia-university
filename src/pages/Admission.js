@@ -17,7 +17,7 @@ function Admission() {
         <Link to="/" className="back-link">← Home</Link>
 
         <div className="white-box">
-          <h2 className="page-title admissions-title">Admissions</h2>
+          <h2 className="page-title ">Admissions</h2>
 
           <div className="text">
             <p>

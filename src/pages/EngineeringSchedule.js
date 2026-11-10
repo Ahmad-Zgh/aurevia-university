@@ -11,7 +11,7 @@ function EngineeringSchedule() {
 
         <h4 className="engineering-slogan">
           EVERY DAY <br className="d-sm-none" /> YOU HAVE A CHANCE TO CHANGE <br /> (2026)
-          {/* 🅱️ d-sm-none = hidden from small screens up -> this line break only shows on phones */}
+          {/* 🅱️ d-sm-none = hidden from small screens up -> this line break only shows on phones(hidden from 576px and up) */}
         </h4>
 
         <div className="white-box engineering-box">
