@@ -1,7 +1,39 @@
-
-
 .admissions-page {
+  flex: 1;
+  padding: 24px 16px;
   background-color: #496786;
+}
+
+.admissions-page .back-link {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.admissions-page .white-box {
+  background-color: white;
+  padding: 16px;
+  margin-top: 16px;
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width: 768px) {
+  .admissions-page .white-box {
+    padding: 24px;
+  }
+}
+
+.admissions-page .page-title {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+.admissions-page .text {
+  color: #6c757d;
+  line-height: 2;
+  text-align: justify;
 }
 
 .admissions-container {
@@ -20,13 +52,12 @@
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Dark blue table header */
 .admissions-table thead th {
   background-color: #1E3A8A;
   color: white;
 }
 
-.form-label {
+.admissions-page .form-label {
   font-weight: 600;
 }
 

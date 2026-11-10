@@ -1,15 +1,43 @@
-
-
 .business-page {
+  flex: 1;
+  padding: 24px 16px;
   background-color: #705d5d;
+}
+
+.business-page .back-link {
+  color: #0dcaf0;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.business-page .white-box {
+  background-color: white;
+  padding: 16px;
+  margin-top: 16px;
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width: 768px) {
+  .business-page .white-box {
+    padding: 24px;
+  }
+}
+
+.business-page .page-title {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+.business-page .text {
+  color: #6c757d;
+  line-height: 2;
+  text-align: justify;
 }
 
 .business-container {
   max-width: 900px;
-}
-
-.business-back {
-  color: #0dcaf0;
 }
 
 .business-slogan {
@@ -30,7 +58,6 @@
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Brown table header */
 .business-table thead th {
   background-color: brown;
   color: white;

@@ -1,18 +1,20 @@
-/* ===== Complete.css ===== */
-
 .complete-page {
+  flex: 1;
+  padding: 48px 16px 24px;
   background-color: #496786;
-  padding-top: 48px;
 }
 
 .complete-container {
   max-width: 500px;
 }
 
-.complete-box {
+.complete-page .white-box {
+  background-color: white;
+  padding: 32px;
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
   text-align: center;
   font-family: Georgia, serif;
-  padding: 32px;
 }
 
 .check-icon {

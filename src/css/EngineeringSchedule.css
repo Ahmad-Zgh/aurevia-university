@@ -1,14 +1,43 @@
-
 .engineering-page {
+  flex: 1;
+  padding: 24px 16px;
   background-color: #0F172A;
+}
+
+.engineering-page .back-link {
+  color: #0dcaf0;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.engineering-page .white-box {
+  background-color: white;
+  padding: 16px;
+  margin-top: 16px;
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width: 768px) {
+  .engineering-page .white-box {
+    padding: 24px;
+  }
+}
+
+.engineering-page .page-title {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+.engineering-page .text {
+  color: #6c757d;
+  line-height: 2;
+  text-align: justify;
 }
 
 .engineering-container {
   max-width: 900px;
-}
-
-.engineering-back {
-  color: #0dcaf0;
 }
 
 .engineering-slogan {
@@ -18,8 +47,7 @@
   margin: 24px 0;
 }
 
-/* Orange line on top of the white box */
-.engineering-box {
+.engineering-page .engineering-box {
   border-top: 6px solid #F97316;
 }
 
@@ -34,7 +62,6 @@
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Dark blue table header */
 .engineering-table thead th {
   background-color: #1E3A8A;
   color: white;

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../css/Campus.css';
+import '../css/Careers.css';
 
 function Careers() {
   return (

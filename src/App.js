@@ -34,7 +34,18 @@ function App() {
           </Routes>
         </main>
 
-        <footer className="footer">© 2026 Aurevia University.</footer>
+        <footer
+          style={{
+            backgroundColor: 'white',
+            textAlign: 'center',
+            color: '#6c757d',
+            fontSize: '0.9rem',
+            padding: '16px',
+            borderTop: '1px solid #dee2e6'
+          }}
+        >
+          © 2026 Aurevia University.
+        </footer>
       </div>
     </BrowserRouter>
   );

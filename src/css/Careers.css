@@ -1,7 +1,39 @@
-
-
 .careers-page {
+  flex: 1;
+  padding: 24px 16px;
   background-color: #496786;
+}
+
+.careers-page .back-link {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.careers-page .white-box {
+  background-color: white;
+  padding: 16px;
+  margin-top: 16px;
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width: 768px) {
+  .careers-page .white-box {
+    padding: 24px;
+  }
+}
+
+.careers-page .page-title {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+.careers-page .text {
+  color: #6c757d;
+  line-height: 2;
+  text-align: justify;
 }
 
 .careers-container {
