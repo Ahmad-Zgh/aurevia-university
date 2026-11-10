@@ -10,7 +10,8 @@ function BusinessSchedule() {
         <Link to="/" className="back-link business-back">← Home</Link>
 
         <h4 className="business-slogan">
-          EVERY DAY YOU HAVE A CHANCE TO CHANGE <br /> (2026)
+          EVERY DAY <br className="d-sm-none" /> YOU HAVE A CHANCE TO CHANGE <br /> (2026)
+          {/* d-sm-none = this line break only shows on phones (hidden from 576px and up) */}
         </h4>
 
         <div className="white-box">
@@ -26,7 +27,7 @@ function BusinessSchedule() {
 
           <div className="table-responsive business-table">         {/*  table-responsive = scrolls sideways on phones */}
             <table className="table table-bordered table-striped table-hover mb-0">
-            {/*  table = table style | table-bordered = cell borders | table-striped = grey every other row
+              {/*  table = table style | table-bordered = cell borders | table-striped = grey every other row
                  table-hover = highlight row under the mouse | mb-0 = no space under */}
               <thead>
                 <tr>

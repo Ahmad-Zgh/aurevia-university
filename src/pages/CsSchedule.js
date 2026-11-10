@@ -10,8 +10,9 @@ function CsSchedule() {
         <Link to="/" className="back-link cs-back">← Home</Link>
 
         <h4 className="cs-slogan">
-          EVERY DAY YOU HAVE A CHANCE TO CHANGE <br /> (2026)
-        </h4>
+  EVERY DAY <br className="d-sm-none" /> YOU HAVE A CHANCE TO CHANGE <br /> (2026)
+  {/* d-sm-none = this line break only shows on phones (hidden from 576px and up) */}
+</h4>
 
         <div className="white-box">
           <h1 className="page-title cs-title">Computer Science</h1>
