@@ -5,7 +5,7 @@ import '../css/BusinessSchedule.css';
 function BusinessSchedule() {
   return (
     <div className="page business-page">
-      <div className="container business-container">                {/* 🅱️ container = centers the content */}
+      <div className="container business-container">                {/*  container = centers the content */}
 
         <Link to="/" className="back-link business-back">← Home</Link>
 

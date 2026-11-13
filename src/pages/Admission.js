@@ -12,7 +12,7 @@ function Admission() {
 
   return (
     <div className="page admissions-page">
-      <div className="container admissions-container">              {/* 🅱️ container = centers the content */}
+      <div className="container admissions-container">              {/*  container = centers the content */}
 
         <Link to="/" className="back-link">← Home</Link>
 
@@ -37,10 +37,10 @@ function Admission() {
 
           <h4 className="admissions-subtitle">Registration Schedule</h4>
 
-          <div className="table-responsive admissions-table">        {/* 🅱️ table-responsive = scrolls sideways on phones */}
+          <div className="table-responsive admissions-table">        {/*  table-responsive = scrolls sideways on phones */}
             <table className="table table-bordered table-striped text-center mb-0">
-            {/* 🅱️ table = table style | table-bordered = cell borders | table-striped = grey every other row
-                🅱️ text-center = centered text | mb-0 = no space under */}
+            {/*  table = table style | table-bordered = cell borders | table-striped = grey every other row
+                 text-center = centered text | mb-0 = no space under */}
               <thead>
                 <tr>
                   <th>Phase</th>
